@@ -1,0 +1,223 @@
+
+@font-face {
+  font-family: 'DimXL';
+  font-style: normal;
+  font-weight: normal;
+  src: local('DimXL'), url('../fonts/MrEavesXLModOT-Bold.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lato'), url('../fonts/Lato-Regular.ttf') format('truetype');
+}
+
+
+
+#sidebar-wrapper {
+    
+    
+    display:none;
+    
+  }
+
+  .sidebar-nav {
+    
+    top: 0;
+    width: 250px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .sidebar-nav li {
+    line-height: 40px;
+    text-indent: 20px;
+  }
+
+  .sidebar-nav li a {
+    color: #000000;
+    display: block;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'DimXL';
+  }
+
+  .sidebar-nav li a:hover {
+    color: #aaaaaa;
+    background: rgba(255,255,255,0.2);
+    text-decoration: none;
+  }
+
+  .sidebar-nav li a:active, .sidebar-nav li a:focus {
+    text-decoration: none;
+  }
+
+  .sidebar-nav > .sidebar-brand {
+    height: 55px;
+    line-height: 55px;
+    font-size: 18px;
+  }
+
+  .sidebar-nav > .sidebar-brand a {
+    color: #999999;
+  }
+
+  .sidebar-nav > .sidebar-brand a:hover {
+    color: #FF0000;
+    background: none;
+  }
+
+  #menu-toggle {
+  
+    z-index: 1;
+  }
+
+  #sidebar-wrapper.active {
+    
+    display:block;
+    
+  }
+
+  .toggle {
+    margin: 5px 5px 0 0;
+  }
+  
+  .carousel.slide img {
+    width:100%;
+    height:auto;
+}
+
+
+.titulosGris
+{
+  font-family: 'Lato';
+  font-size:40px;
+  color: #333333;
+  font-weight: bold;
+}
+
+
+
+
+  
+	
+	.menupal
+{
+	display: block;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'DimXL';
+	}
+	
+	
+	
+	
+
+
+
+.menumovil {
+  top: 20px;
+  right: 60px ;
+  position: fixed;
+  width: 10%;
+  z-index: 1;
+  
+  
+}
+
+
+.menuEstatico {
+  top: 0px;
+  right: 0px ;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  background-color: #FFFFFF;
+  
+  
+}
+
+
+.menuMovilAparece
+{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 25px;
+  top: 20px;
+  right: 10px ;
+  position: fixed;
+  width: 250px;
+  background-color: #FFFFFF;
+  z-index: 1;
+}
+
+
+.mascota
+{
+  width: 100%;
+}
+
+.mascotapeque
+{
+  height: 300px;
+}
+
+.nosotrosdiv
+{
+  background-image: url("../objetos/fondoMascota.png");
+}
+
+
+
+
+
+a.mylink:hover
+{
+  color: #7C7C7C;
+  font-family: 'Lato';
+  font-size: x-large;
+}
+
+a.mylink {
+  color: #333333;
+  text-decoration: none;
+  background-color: transparent;
+  font-family: 'Lato';
+  font-size: large;
+}
+
+a.linkCatalogos {
+  color: #4f31d1;
+  padding-left: 20px;
+  text-decoration: none;
+  background-color: transparent;
+  font-family: 'DimXL';
+  font-size: medium;
+}
+
+a.linkCatalogos:hover {
+  color: #49d825;
+  padding-left: 20px;
+  text-decoration: none;
+  background-color: transparent;
+  font-family: 'DimXL';
+  font-size: medium;
+}
+
+
+
+
+
+.imagenesChiquitasGrises
+{
+  height:25px ;
+}
+  
+
+	
+
